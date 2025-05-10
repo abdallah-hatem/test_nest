@@ -13,9 +13,9 @@ import { USER_REPOSITORY_TOKEN } from './repositories/user.repository.token';
     {
       provide: USER_REPOSITORY_TOKEN,
       useClass: UserRepository,
-    }
+    },
   ],
   controllers: [UsersController],
   exports: [UsersService],
 })
-export class UsersModule {} 
+export class UsersModule {}
